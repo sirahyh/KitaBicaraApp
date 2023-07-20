@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF">
+
+    <item android:title="Beranda"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_24"/>
+    <item android:title="Rekam"
+        android:id="@+id/rekam"
+        android:icon="@drawable/ic_camera_24"/>
+    <item android:title="Tulis"
+        android:id="@+id/tulis"
+        android:icon="@drawable/ic_create_24"/>
+</menu>
