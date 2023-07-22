@@ -4,11 +4,15 @@
 
     <item android:title="Beranda"
         android:id="@+id/home"
-        android:icon="@drawable/ic_home_24"/>
+        android:icon="@drawable/ic_home"
+        />
+
     <item android:title="Rekam"
         android:id="@+id/rekam"
-        android:icon="@drawable/ic_camera_24"/>
+        android:iconTint="@color/blue"
+        android:icon="@drawable/ic_record"/>
     <item android:title="Tulis"
+
         android:id="@+id/tulis"
-        android:icon="@drawable/ic_create_24"/>
+        android:icon="@drawable/ic_tulis"/>
 </menu>

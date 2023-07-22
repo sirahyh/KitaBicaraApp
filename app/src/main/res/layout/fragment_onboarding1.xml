@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBase"
+    tools:context=".Onboarding1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="370dp"
+            android:layout_height="270dp"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/logo1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.094" />
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:background="@drawable/rounded_background_with_border"
+            app:circularflow_radiusInDP="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo"
+            app:layout_constraintVertical_bias="0.304">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/poppins_regular"
+                android:text="Selamat Datang!"
+                android:textColor="@color/colorFont"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="110dp"
+                android:layout_marginEnd="45dp"
+                android:gravity="center"
+                android:text="This is random text taking from lorem ipsum tesing puspose"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/title" />
+
+            <Button
+                android:id="@+id/btnGetStarted"
+                android:layout_width="170dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="220dp"
+                android:backgroundTint="@color/bgButton"
+                android:fontFamily="@font/poppins_bold"
+                android:text="Mulai"
+                android:textColor="@color/colorBase"
+                android:textSize="20dp">
+
+            </Button>
+
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/ind2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/selected"
+            app:layout_constraintBottom_toBottomOf="@+id/ind1"
+            app:layout_constraintEnd_toStartOf="@+id/ind3"
+            app:layout_constraintStart_toEndOf="@+id/ind1"
+            app:layout_constraintTop_toTopOf="@+id/ind1" />
+
+        <ImageView
+            android:id="@+id/ind1"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginStart="150dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/selected"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+        <ImageView
+            android:id="@+id/ind3"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginEnd="150dp"
+            android:src="@drawable/selected"
+            app:layout_constraintBottom_toBottomOf="@+id/ind2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ind2" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/back"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="24dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintVertical_bias="0.499"-->
+<!--            app:srcCompat="@drawable/ic_back" />-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/next"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginEnd="24dp"-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:srcCompat="@drawable/ic_next" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
