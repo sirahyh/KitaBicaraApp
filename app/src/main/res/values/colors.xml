@@ -10,4 +10,5 @@
     <color name="greySoft">#cccccc</color>
     <color name="colorFont">#322F41</color>
     <color name="bgButton">#C3B3F3</color>
+    <color name="gray">#F7F8FC</color>
 </resources>
