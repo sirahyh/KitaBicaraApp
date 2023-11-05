@@ -18,7 +18,7 @@
             android:id="@+id/imageButton"
             android:layout_width="62dp"
             android:layout_height="62dp"
-            android:background="@color/white"
+            android:background="@color/bgTutorial"
             android:contentDescription="Tombol untuk tutorial merekam"
             android:src="@drawable/ic_back"
             app:layout_constraintBottom_toBottomOf="parent"

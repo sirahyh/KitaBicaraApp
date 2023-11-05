@@ -9,7 +9,6 @@
 
     <item android:title="Rekam"
         android:id="@+id/rekam"
-        android:iconTint="@color/blue"
         android:icon="@drawable/ic_record"/>
     <item android:title="Tulis"
 

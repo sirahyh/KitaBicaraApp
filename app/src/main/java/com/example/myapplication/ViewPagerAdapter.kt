@@ -60,7 +60,7 @@ class ViewPagerAdapter(private val ctx: Context) : PagerAdapter() {
                     ind2.setImageResource(R.drawable.unselected)
                     ind3.setImageResource(R.drawable.unselected)
 
-                    title.text = "Shoping Place"
+                    title.text = "Onboarding Satu"
                     desc.text = "This is random text taking from lorem ipsum tesing purpose"
 //                    back.visibility = View.GONE
 //                    next.visibility = View.VISIBLE
@@ -71,7 +71,7 @@ class ViewPagerAdapter(private val ctx: Context) : PagerAdapter() {
                     ind2.setImageResource(R.drawable.selected)
                     ind3.setImageResource(R.drawable.unselected)
 
-                    title.text = "Shopping on the way"
+                    title.text = "Onboarding Dua"
                     desc.text = "Ini isi slide kedua"
 //                    back.visibility = View.VISIBLE
 //                    next.visibility = View.VISIBLE
@@ -82,7 +82,7 @@ class ViewPagerAdapter(private val ctx: Context) : PagerAdapter() {
                     ind2.setImageResource(R.drawable.unselected)
                     ind3.setImageResource(R.drawable.selected)
 
-                    title.text = "Shopping on the way"
+                    title.text = "Onboarding Tiga"
                     desc.text = "Ini isi slide ketiga"
 //                    back.visibility = View.VISIBLE
 //                    next.visibility = View.VISIBLE
